@@ -1,0 +1,1780 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0040)http://download.noi.cn/T/NOIP2011/LN.htm -->
+<HTML xmlns="http://www.w3.org/TR/REC-html40" xmlns:v = 
+"urn:schemas-microsoft-com:vml" xmlns:o = 
+"urn:schemas-microsoft-com:office:office" xmlns:w = 
+"urn:schemas-microsoft-com:office:word" xmlns:x = 
+"urn:schemas-microsoft-com:office:excel" xmlns:m = 
+"http://schemas.microsoft.com/office/2004/12/omml"><HEAD>
+<META http-equiv=Content-Type content="text/html; charset=gb2312">
+<META content=Word.Document name=ProgId>
+<META content="MSHTML 6.00.2900.6058" name=GENERATOR>
+<META content="Microsoft Word 12" name=Originator><LINK 
+href="LN.files/filelist.xml" rel=File-List><!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>Owner</o:Author>
+  <o:Template>Normal</o:Template>
+  <o:LastAuthor>Owner</o:LastAuthor>
+  <o:Revision>7</o:Revision>
+  <o:TotalTime>35</o:TotalTime>
+  <o:Created>2011-11-29T12:00:00Z</o:Created>
+  <o:LastSaved>2011-12-02T09:06:00Z</o:LastSaved>
+  <o:Pages>1</o:Pages>
+  <o:Words>163</o:Words>
+  <o:Characters>934</o:Characters>
+  <o:Company>FOUNDERTECH</o:Company>
+  <o:Lines>7</o:Lines>
+  <o:Paragraphs>2</o:Paragraphs>
+  <o:CharactersWithSpaces>1095</o:CharactersWithSpaces>
+  <o:Version>12.00</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]--><LINK href="LN.files/themedata.thmx" rel=themeData><LINK 
+href="LN.files/colorschememapping.xml" rel=colorSchemeMapping><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:TrackMoves>false</w:TrackMoves>
+  <w:TrackFormatting/>
+  <w:PunctuationKerning/>
+  <w:DrawingGridHorizontalSpacing>5.25 磅</w:DrawingGridHorizontalSpacing>
+  <w:DrawingGridVerticalSpacing>7.8 磅</w:DrawingGridVerticalSpacing>
+  <w:DisplayHorizontalDrawingGridEvery>0</w:DisplayHorizontalDrawingGridEvery>
+  <w:DisplayVerticalDrawingGridEvery>2</w:DisplayVerticalDrawingGridEvery>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:DoNotPromoteQF/>
+  <w:LidThemeOther>EN-US</w:LidThemeOther>
+  <w:LidThemeAsian>ZH-CN</w:LidThemeAsian>
+  <w:LidThemeComplexScript>X-NONE</w:LidThemeComplexScript>
+  <w:Compatibility>
+   <w:SpaceForUL/>
+   <w:BalanceSingleByteDoubleByteWidth/>
+   <w:DoNotLeaveBackslashAlone/>
+   <w:ULTrailSpace/>
+   <w:DoNotExpandShiftReturn/>
+   <w:AdjustLineHeightInTable/>
+   <w:BreakWrappedTables/>
+   <w:SnapToGridInCell/>
+   <w:WrapTextWithPunct/>
+   <w:UseAsianBreakRules/>
+   <w:DontGrowAutofit/>
+   <w:SplitPgBreakAndParaMark/>
+   <w:DontVertAlignCellWithSp/>
+   <w:DontBreakConstrainedForcedTables/>
+   <w:DontVertAlignInTxbx/>
+   <w:Word11KerningPairs/>
+   <w:CachedColBalance/>
+   <w:UseFELayout/>
+  </w:Compatibility>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+  <m:mathPr>
+   <m:mathFont m:val="Cambria Math"/>
+   <m:brkBin m:val="before"/>
+   <m:brkBinSub m:val="&#45;-"/>
+   <m:smallFrac m:val="off"/>
+   <m:dispDef/>
+   <m:lMargin m:val="0"/>
+   <m:rMargin m:val="0"/>
+   <m:defJc m:val="centerGroup"/>
+   <m:wrapIndent m:val="1440"/>
+   <m:intLim m:val="subSup"/>
+   <m:naryLim m:val="undOvr"/>
+  </m:mathPr></w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="true"
+  DefSemiHidden="true" DefQFormat="false" DefPriority="99"
+  LatentStyleCount="267">
+  <w:LsdException Locked="false" Priority="0" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Normal"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="heading 1"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 2"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 3"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 4"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 5"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 6"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 7"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 8"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 9"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 1"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 2"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 3"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 4"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 5"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 6"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 7"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 8"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 9"/>
+  <w:LsdException Locked="false" Priority="35" QFormat="true" Name="caption"/>
+  <w:LsdException Locked="false" Priority="10" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Title"/>
+  <w:LsdException Locked="false" Priority="1" Name="Default Paragraph Font"/>
+  <w:LsdException Locked="false" Priority="11" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtitle"/>
+  <w:LsdException Locked="false" Priority="22" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Strong"/>
+  <w:LsdException Locked="false" Priority="20" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Emphasis"/>
+  <w:LsdException Locked="false" Priority="59" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Table Grid"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Placeholder Text"/>
+  <w:LsdException Locked="false" Priority="1" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="No Spacing"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 1"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 1"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Revision"/>
+  <w:LsdException Locked="false" Priority="34" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="List Paragraph"/>
+  <w:LsdException Locked="false" Priority="29" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Quote"/>
+  <w:LsdException Locked="false" Priority="30" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Quote"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 1"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 1"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 2"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 2"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 2"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 3"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 3"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 3"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 4"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 4"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 4"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 5"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 5"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 5"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 6"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 6"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 6"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="19" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtle Emphasis"/>
+  <w:LsdException Locked="false" Priority="21" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Emphasis"/>
+  <w:LsdException Locked="false" Priority="31" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtle Reference"/>
+  <w:LsdException Locked="false" Priority="32" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Reference"/>
+  <w:LsdException Locked="false" Priority="33" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Book Title"/>
+  <w:LsdException Locked="false" Priority="37" Name="Bibliography"/>
+  <w:LsdException Locked="false" Priority="39" QFormat="true" Name="TOC Heading"/>
+ </w:LatentStyles>
+</xml><![endif]-->
+<STYLE>@font-face {
+	font-family: 宋体;
+}
+@font-face {
+	font-family: Cambria Math;
+}
+@font-face {
+	font-family: Calibri;
+}
+@font-face {
+	font-family: @宋体;
+}
+@page  {mso-page-border-surround-header: no; mso-page-border-surround-footer: no; mso-footnote-separator: url("LN.files/header.htm") fs; mso-footnote-continuation-separator: url("LN.files/header.htm") fcs; mso-endnote-separator: url("LN.files/header.htm") es; mso-endnote-continuation-separator: url("LN.files/header.htm") ecs; }
+@page WordSection1 {size: 595.3pt 841.9pt; margin: 36.0pt 36.0pt 36.0pt 36.0pt; mso-header-margin: 42.55pt; mso-footer-margin: 49.6pt; mso-paper-source: 0; layout-grid: 15.6pt; }
+P.MsoNormal {
+	TEXT-JUSTIFY: inter-ideograph; FONT-SIZE: 10.5pt; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: "Calibri","sans-serif"; TEXT-ALIGN: justify; mso-ascii-font-family: Calibri; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: 宋体; mso-fareast-theme-font: minor-fareast; mso-hansi-font-family: Calibri; mso-hansi-theme-font: minor-latin; mso-bidi-font-family: "Times New Roman"; mso-font-kerning: 1.0pt; mso-style-unhide: no; mso-style-qformat: yes; mso-style-parent: ""; mso-pagination: none; mso-bidi-font-size: 11.0pt; mso-bidi-theme-font: minor-bidi
+}
+LI.MsoNormal {
+	TEXT-JUSTIFY: inter-ideograph; FONT-SIZE: 10.5pt; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: "Calibri","sans-serif"; TEXT-ALIGN: justify; mso-ascii-font-family: Calibri; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: 宋体; mso-fareast-theme-font: minor-fareast; mso-hansi-font-family: Calibri; mso-hansi-theme-font: minor-latin; mso-bidi-font-family: "Times New Roman"; mso-font-kerning: 1.0pt; mso-style-unhide: no; mso-style-qformat: yes; mso-style-parent: ""; mso-pagination: none; mso-bidi-font-size: 11.0pt; mso-bidi-theme-font: minor-bidi
+}
+DIV.MsoNormal {
+	TEXT-JUSTIFY: inter-ideograph; FONT-SIZE: 10.5pt; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: "Calibri","sans-serif"; TEXT-ALIGN: justify; mso-ascii-font-family: Calibri; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: 宋体; mso-fareast-theme-font: minor-fareast; mso-hansi-font-family: Calibri; mso-hansi-theme-font: minor-latin; mso-bidi-font-family: "Times New Roman"; mso-font-kerning: 1.0pt; mso-style-unhide: no; mso-style-qformat: yes; mso-style-parent: ""; mso-pagination: none; mso-bidi-font-size: 11.0pt; mso-bidi-theme-font: minor-bidi
+}
+P.MsoHeader {
+	BORDER-RIGHT: medium none; PADDING-RIGHT: 0cm; BORDER-TOP: medium none; PADDING-LEFT: 0cm; FONT-SIZE: 9pt; PADDING-BOTTOM: 0cm; MARGIN: 0cm 0cm 0pt; BORDER-LEFT: medium none; LAYOUT-GRID-MODE: char; PADDING-TOP: 0cm; BORDER-BOTTOM: medium none; FONT-FAMILY: "Calibri","sans-serif"; TEXT-ALIGN: center; mso-ascii-font-family: Calibri; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: 宋体; mso-fareast-theme-font: minor-fareast; mso-hansi-font-family: Calibri; mso-hansi-theme-font: minor-latin; mso-bidi-font-family: "Times New Roman"; mso-font-kerning: 1.0pt; mso-pagination: none; mso-bidi-theme-font: minor-bidi; mso-style-noshow: yes; mso-style-priority: 99; mso-style-link: "页眉 Char"; tab-stops: center 207.65pt right 415.3pt; mso-border-bottom-alt: solid windowtext .75pt; mso-padding-alt: 0cm 0cm 1.0pt 0cm
+}
+LI.MsoHeader {
+	BORDER-RIGHT: medium none; PADDING-RIGHT: 0cm; BORDER-TOP: medium none; PADDING-LEFT: 0cm; FONT-SIZE: 9pt; PADDING-BOTTOM: 0cm; MARGIN: 0cm 0cm 0pt; BORDER-LEFT: medium none; LAYOUT-GRID-MODE: char; PADDING-TOP: 0cm; BORDER-BOTTOM: medium none; FONT-FAMILY: "Calibri","sans-serif"; TEXT-ALIGN: center; mso-ascii-font-family: Calibri; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: 宋体; mso-fareast-theme-font: minor-fareast; mso-hansi-font-family: Calibri; mso-hansi-theme-font: minor-latin; mso-bidi-font-family: "Times New Roman"; mso-font-kerning: 1.0pt; mso-pagination: none; mso-bidi-theme-font: minor-bidi; mso-style-noshow: yes; mso-style-priority: 99; mso-style-link: "页眉 Char"; tab-stops: center 207.65pt right 415.3pt; mso-border-bottom-alt: solid windowtext .75pt; mso-padding-alt: 0cm 0cm 1.0pt 0cm
+}
+DIV.MsoHeader {
+	BORDER-RIGHT: medium none; PADDING-RIGHT: 0cm; BORDER-TOP: medium none; PADDING-LEFT: 0cm; FONT-SIZE: 9pt; PADDING-BOTTOM: 0cm; MARGIN: 0cm 0cm 0pt; BORDER-LEFT: medium none; LAYOUT-GRID-MODE: char; PADDING-TOP: 0cm; BORDER-BOTTOM: medium none; FONT-FAMILY: "Calibri","sans-serif"; TEXT-ALIGN: center; mso-ascii-font-family: Calibri; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: 宋体; mso-fareast-theme-font: minor-fareast; mso-hansi-font-family: Calibri; mso-hansi-theme-font: minor-latin; mso-bidi-font-family: "Times New Roman"; mso-font-kerning: 1.0pt; mso-pagination: none; mso-bidi-theme-font: minor-bidi; mso-style-noshow: yes; mso-style-priority: 99; mso-style-link: "页眉 Char"; tab-stops: center 207.65pt right 415.3pt; mso-border-bottom-alt: solid windowtext .75pt; mso-padding-alt: 0cm 0cm 1.0pt 0cm
+}
+P.MsoFooter {
+	FONT-SIZE: 9pt; MARGIN: 0cm 0cm 0pt; LAYOUT-GRID-MODE: char; FONT-FAMILY: "Calibri","sans-serif"; mso-ascii-font-family: Calibri; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: 宋体; mso-fareast-theme-font: minor-fareast; mso-hansi-font-family: Calibri; mso-hansi-theme-font: minor-latin; mso-bidi-font-family: "Times New Roman"; mso-font-kerning: 1.0pt; mso-pagination: none; mso-bidi-theme-font: minor-bidi; mso-style-noshow: yes; mso-style-priority: 99; mso-style-link: "页脚 Char"; tab-stops: center 207.65pt right 415.3pt
+}
+LI.MsoFooter {
+	FONT-SIZE: 9pt; MARGIN: 0cm 0cm 0pt; LAYOUT-GRID-MODE: char; FONT-FAMILY: "Calibri","sans-serif"; mso-ascii-font-family: Calibri; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: 宋体; mso-fareast-theme-font: minor-fareast; mso-hansi-font-family: Calibri; mso-hansi-theme-font: minor-latin; mso-bidi-font-family: "Times New Roman"; mso-font-kerning: 1.0pt; mso-pagination: none; mso-bidi-theme-font: minor-bidi; mso-style-noshow: yes; mso-style-priority: 99; mso-style-link: "页脚 Char"; tab-stops: center 207.65pt right 415.3pt
+}
+DIV.MsoFooter {
+	FONT-SIZE: 9pt; MARGIN: 0cm 0cm 0pt; LAYOUT-GRID-MODE: char; FONT-FAMILY: "Calibri","sans-serif"; mso-ascii-font-family: Calibri; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: 宋体; mso-fareast-theme-font: minor-fareast; mso-hansi-font-family: Calibri; mso-hansi-theme-font: minor-latin; mso-bidi-font-family: "Times New Roman"; mso-font-kerning: 1.0pt; mso-pagination: none; mso-bidi-theme-font: minor-bidi; mso-style-noshow: yes; mso-style-priority: 99; mso-style-link: "页脚 Char"; tab-stops: center 207.65pt right 415.3pt
+}
+A:link {
+	COLOR: blue; TEXT-DECORATION: underline; mso-style-noshow: yes; mso-style-priority: 99; text-underline: single
+}
+SPAN.MsoHyperlink {
+	COLOR: blue; TEXT-DECORATION: underline; mso-style-noshow: yes; mso-style-priority: 99; text-underline: single
+}
+A:visited {
+	COLOR: purple; TEXT-DECORATION: underline; mso-style-noshow: yes; mso-style-priority: 99; text-underline: single
+}
+SPAN.MsoHyperlinkFollowed {
+	COLOR: purple; TEXT-DECORATION: underline; mso-style-noshow: yes; mso-style-priority: 99; text-underline: single
+}
+SPAN.Char {
+	mso-style-unhide: no; mso-bidi-font-size: 9.0pt; mso-style-noshow: yes; mso-style-priority: 99; mso-style-link: 页眉; mso-style-name: "页眉 Char"; mso-style-locked: yes; mso-ansi-font-size: 9.0pt
+}
+SPAN.Char0 {
+	mso-style-unhide: no; mso-bidi-font-size: 9.0pt; mso-style-noshow: yes; mso-style-priority: 99; mso-style-link: 页脚; mso-style-name: "页脚 Char"; mso-style-locked: yes; mso-ansi-font-size: 9.0pt
+}
+P.font5 {
+	FONT-SIZE: 9pt; MARGIN-LEFT: 0cm; MARGIN-RIGHT: 0cm; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-style-unhide: no; mso-pagination: widow-orphan; mso-style-name: font5; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto
+}
+LI.font5 {
+	FONT-SIZE: 9pt; MARGIN-LEFT: 0cm; MARGIN-RIGHT: 0cm; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-style-unhide: no; mso-pagination: widow-orphan; mso-style-name: font5; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto
+}
+DIV.font5 {
+	FONT-SIZE: 9pt; MARGIN-LEFT: 0cm; MARGIN-RIGHT: 0cm; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-style-unhide: no; mso-pagination: widow-orphan; mso-style-name: font5; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto
+}
+P.xl66 {
+	FONT-SIZE: 12pt; MARGIN-LEFT: 0cm; MARGIN-RIGHT: 0cm; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-style-unhide: no; mso-pagination: widow-orphan; mso-style-name: xl66; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto
+}
+LI.xl66 {
+	FONT-SIZE: 12pt; MARGIN-LEFT: 0cm; MARGIN-RIGHT: 0cm; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-style-unhide: no; mso-pagination: widow-orphan; mso-style-name: xl66; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto
+}
+DIV.xl66 {
+	FONT-SIZE: 12pt; MARGIN-LEFT: 0cm; MARGIN-RIGHT: 0cm; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-style-unhide: no; mso-pagination: widow-orphan; mso-style-name: xl66; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto
+}
+.MsoChpDefault {
+	FONT-SIZE: 10pt; mso-ascii-font-family: "Times New Roman"; mso-hansi-font-family: "Times New Roman"; mso-bidi-font-family: "Times New Roman"; mso-font-kerning: 0pt; mso-bidi-font-size: 10.0pt; mso-bidi-theme-font: minor-bidi; mso-ansi-font-size: 10.0pt; mso-style-type: export-only; mso-default-props: yes
+}
+DIV.WordSection1 {
+	page: WordSection1
+}
+</STYLE>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:普通表格;
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+</style>
+<![endif]--><!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="12290"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]--></HEAD>
+<BODY lang=ZH-CN style="TEXT-JUSTIFY-TRIM: punctuation; tab-interval: 21.0pt" 
+vLink=purple link=blue>
+<DIV class=WordSection1 style="LAYOUT-GRID:  15.6pt none">
+<P class=MsoNormal style="TEXT-ALIGN: center" align=center><SPAN 
+style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-ascii-font-family: Calibri; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: 宋体; mso-fareast-theme-font: minor-fareast; mso-hansi-font-family: Calibri; mso-hansi-theme-font: minor-latin; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">“</SPAN><SPAN 
+lang=EN-US 
+style="FONT-SIZE: 11pt; COLOR: black; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">*</SPAN><SPAN 
+style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-ascii-font-family: Calibri; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: 宋体; mso-fareast-theme-font: minor-fareast; mso-hansi-font-family: Calibri; mso-hansi-theme-font: minor-latin; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">”为往届获奖选手</SPAN><SPAN 
+lang=EN-US 
+style="FONT-SIZE: 11pt; COLOR: black; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt"><o:p></o:p></SPAN></P>
+<P class=MsoNormal style="TEXT-ALIGN: center" align=center><SPAN lang=EN-US 
+style="FONT-SIZE: 11pt; COLOR: black; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt"><o:p>&nbsp;</o:p></SPAN></P>
+<DIV align=center>
+<TABLE class=MsoNormalTable 
+style="MARGIN-LEFT: -1.15pt; WIDTH: 522.8pt; BORDER-COLLAPSE: collapse; mso-padding-alt: 0cm 5.4pt 0cm 5.4pt; mso-yfti-tbllook: 1184" 
+cellSpacing=0 cellPadding=0 width=697 border=0>
+  <TBODY>
+  <TR style="HEIGHT: 13.5pt; mso-yfti-irow: 0; mso-yfti-firstrow: yes">
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: windowtext 1pt solid; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: windowtext 1pt solid; WIDTH: 74pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-alt: solid windowtext .5pt" 
+    noWrap width=99>
+      <P class=MsoNormal><B><SPAN 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-ascii-font-family: Calibri; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: 宋体; mso-fareast-theme-font: minor-fareast; mso-hansi-font-family: Calibri; mso-hansi-theme-font: minor-latin">证书编号</SPAN></B><B><SPAN 
+      lang=EN-US 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体"><o:p></o:p></SPAN></B></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: windowtext 1pt solid; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 64pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=85>
+      <P class=MsoNormal><B><SPAN 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-ascii-font-family: Calibri; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: 宋体; mso-fareast-theme-font: minor-fareast; mso-hansi-font-family: Calibri; mso-hansi-theme-font: minor-latin">姓名</SPAN></B><B><SPAN 
+      lang=EN-US 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体"><o:p></o:p></SPAN></B></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: windowtext 1pt solid; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 58.8pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=78>
+      <P class=MsoNormal><B><SPAN 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-ascii-font-family: Calibri; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: 宋体; mso-fareast-theme-font: minor-fareast; mso-hansi-font-family: Calibri; mso-hansi-theme-font: minor-latin">编号</SPAN></B><B><SPAN 
+      lang=EN-US 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体"><o:p></o:p></SPAN></B></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: windowtext 1pt solid; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 42pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=56>
+      <P class=MsoNormal><B><SPAN 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-ascii-font-family: Calibri; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: 宋体; mso-fareast-theme-font: minor-fareast; mso-hansi-font-family: Calibri; mso-hansi-theme-font: minor-latin">总分</SPAN></B><B><SPAN 
+      lang=EN-US 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体"><o:p></o:p></SPAN></B></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: windowtext 1pt solid; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 171pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=228>
+      <P class=MsoNormal><B><SPAN 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-ascii-font-family: Calibri; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: 宋体; mso-fareast-theme-font: minor-fareast; mso-hansi-font-family: Calibri; mso-hansi-theme-font: minor-latin">学校</SPAN></B><B><SPAN 
+      lang=EN-US 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体"><o:p></o:p></SPAN></B></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: windowtext 1pt solid; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 45pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=60>
+      <P class=MsoNormal><B><SPAN 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-ascii-font-family: Calibri; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: 宋体; mso-fareast-theme-font: minor-fareast; mso-hansi-font-family: Calibri; mso-hansi-theme-font: minor-latin">年级</SPAN></B><B><SPAN 
+      lang=EN-US 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体"><o:p></o:p></SPAN></B></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: windowtext 1pt solid; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 68pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=91>
+      <P class=MsoNormal><B><SPAN 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-ascii-font-family: Calibri; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: 宋体; mso-fareast-theme-font: minor-fareast; mso-hansi-font-family: Calibri; mso-hansi-theme-font: minor-latin">是否往届</SPAN></B><B><SPAN 
+      lang=EN-US 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体"><o:p></o:p></SPAN></B></P></TD></TR>
+  <TR style="HEIGHT: 13.5pt; mso-yfti-irow: 1">
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: windowtext 1pt solid; WIDTH: 74pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt" 
+    noWrap width=99>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN lang=EN-US 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">IO11-1801<o:p></o:p></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 64pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=85>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">项思陶<SPAN 
+      lang=EN-US><o:p></o:p></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 58.8pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=78>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN lang=EN-US 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">LN-006<o:p></o:p></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 42pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=56>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN lang=EN-US 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">600<o:p></o:p></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 171pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=228>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">东北育才学校<SPAN 
+      lang=EN-US><o:p></o:p></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 45pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=60>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">高三<SPAN 
+      lang=EN-US><o:p></o:p></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 68pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=91>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN lang=EN-US 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">*<o:p></o:p></SPAN></P></TD></TR>
+  <TR style="HEIGHT: 13.5pt; mso-yfti-irow: 2">
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: windowtext 1pt solid; WIDTH: 74pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt" 
+    noWrap width=99>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN lang=EN-US 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">IO11-1802<o:p></o:p></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 64pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=85>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">邱启迪<SPAN 
+      lang=EN-US><o:p></o:p></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 58.8pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=78>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN lang=EN-US 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">LN-030<o:p></o:p></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 42pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=56>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN lang=EN-US 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">450<o:p></o:p></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 171pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=228>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">东北育才学校<SPAN 
+      lang=EN-US><o:p></o:p></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 45pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=60>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">高二<SPAN 
+      lang=EN-US><o:p></o:p></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 68pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=91>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">　<SPAN 
+      lang=EN-US><o:p></o:p></SPAN></SPAN></P></TD></TR>
+  <TR style="HEIGHT: 13.5pt; mso-yfti-irow: 3">
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: windowtext 1pt solid; WIDTH: 74pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt" 
+    noWrap width=99>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN lang=EN-US 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">IO11-1803<o:p></o:p></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 64pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=85>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">徐聪瑞<SPAN 
+      lang=EN-US><o:p></o:p></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 58.8pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=78>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN lang=EN-US 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">LN-012<o:p></o:p></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 42pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=56>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN lang=EN-US 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">440<o:p></o:p></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 171pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=228>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">抚顺市第十二中学<SPAN 
+      lang=EN-US><o:p></o:p></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 45pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=60>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">高三<SPAN 
+      lang=EN-US><o:p></o:p></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 68pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=91>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">　<SPAN 
+      lang=EN-US><o:p></o:p></SPAN></SPAN></P></TD></TR>
+  <TR style="HEIGHT: 13.5pt; mso-yfti-irow: 4">
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: windowtext 1pt solid; WIDTH: 74pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt" 
+    noWrap width=99>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN lang=EN-US 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">IO11-1804<o:p></o:p></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 64pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=85>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">朴乘志<SPAN 
+      lang=EN-US><o:p></o:p></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 58.8pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=78>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN lang=EN-US 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">LN-028<o:p></o:p></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 42pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=56>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN lang=EN-US 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">440<o:p></o:p></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 171pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=228>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">本溪市高级中学<SPAN 
+      lang=EN-US><o:p></o:p></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 45pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=60>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">高二<SPAN 
+      lang=EN-US><o:p></o:p></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 68pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=91>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN lang=EN-US 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">*<o:p></o:p></SPAN></P></TD></TR>
+  <TR style="HEIGHT: 13.5pt; mso-yfti-irow: 5">
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: windowtext 1pt solid; WIDTH: 74pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt" 
+    noWrap width=99>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN lang=EN-US 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">IO11-1805<o:p></o:p></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 64pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=85>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">胡洋<SPAN 
+      lang=EN-US><o:p></o:p></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 58.8pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=78>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN lang=EN-US 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">LN-045<o:p></o:p></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 42pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=56>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN lang=EN-US 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">430<o:p></o:p></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 171pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=228>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">辽阳石油化纤公司高级中学<SPAN 
+      lang=EN-US><o:p></o:p></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 45pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=60>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">高三<SPAN 
+      lang=EN-US><o:p></o:p></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 68pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=91>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">　<SPAN 
+      lang=EN-US><o:p></o:p></SPAN></SPAN></P></TD></TR>
+  <TR style="HEIGHT: 13.5pt; mso-yfti-irow: 6">
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: windowtext 1pt solid; WIDTH: 74pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt" 
+    noWrap width=99>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN lang=EN-US 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">IO11-1806<o:p></o:p></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 64pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=85>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">金志卿<SPAN 
+      lang=EN-US><o:p></o:p></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 58.8pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=78>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN lang=EN-US 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">LN-165<o:p></o:p></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 42pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=56>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN lang=EN-US 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">430<o:p></o:p></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 171pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=228>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">东北育才学校<SPAN 
+      lang=EN-US><o:p></o:p></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 45pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=60>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">高三<SPAN 
+      lang=EN-US><o:p></o:p></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 68pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=91>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">　<SPAN 
+      lang=EN-US><o:p></o:p></SPAN></SPAN></P></TD></TR>
+  <TR style="HEIGHT: 13.5pt; mso-yfti-irow: 7">
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: windowtext 1pt solid; WIDTH: 74pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt" 
+    noWrap width=99>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN lang=EN-US 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">IO11-1807<o:p></o:p></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 64pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=85>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">吴昊<SPAN 
+      lang=EN-US><o:p></o:p></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 58.8pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=78>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN lang=EN-US 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">LN-001<o:p></o:p></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 42pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=56>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN lang=EN-US 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">400<o:p></o:p></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 171pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=228>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">辽宁师范大学附属中学<SPAN 
+      lang=EN-US><o:p></o:p></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 45pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=60>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">高三<SPAN 
+      lang=EN-US><o:p></o:p></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 68pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=91>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">　<SPAN 
+      lang=EN-US><o:p></o:p></SPAN></SPAN></P></TD></TR>
+  <TR style="HEIGHT: 13.5pt; mso-yfti-irow: 8">
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: windowtext 1pt solid; WIDTH: 74pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt" 
+    noWrap width=99>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN lang=EN-US 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">IO11-1808<o:p></o:p></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 64pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=85>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">王劭阳<SPAN 
+      lang=EN-US><o:p></o:p></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 58.8pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=78>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN lang=EN-US 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">LN-004<o:p></o:p></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 42pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=56>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN lang=EN-US 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">400<o:p></o:p></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 171pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=228>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">大连育明高中<SPAN 
+      lang=EN-US><o:p></o:p></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 45pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=60>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">高三<SPAN 
+      lang=EN-US><o:p></o:p></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 68pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=91>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN lang=EN-US 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">*<o:p></o:p></SPAN></P></TD></TR>
+  <TR style="HEIGHT: 13.5pt; mso-yfti-irow: 9">
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: windowtext 1pt solid; WIDTH: 74pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt" 
+    noWrap width=99>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN lang=EN-US 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">IO11-1809<o:p></o:p></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 64pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=85>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">杨伊鸣<SPAN 
+      lang=EN-US><o:p></o:p></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 58.8pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=78>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN lang=EN-US 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">LN-039<o:p></o:p></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 42pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=56>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN lang=EN-US 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">400<o:p></o:p></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 171pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=228>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">大连市第二十四中学<SPAN 
+      lang=EN-US><o:p></o:p></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 45pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=60>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">高三<SPAN 
+      lang=EN-US><o:p></o:p></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 68pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=91>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN lang=EN-US 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">*<o:p></o:p></SPAN></P></TD></TR>
+  <TR style="HEIGHT: 13.5pt; mso-yfti-irow: 10">
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: windowtext 1pt solid; WIDTH: 74pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt" 
+    noWrap width=99>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN lang=EN-US 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">IO11-1810<o:p></o:p></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 64pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=85>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">张荣葳<SPAN 
+      lang=EN-US><o:p></o:p></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 58.8pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=78>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN lang=EN-US 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">LN-197<o:p></o:p></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 42pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=56>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN lang=EN-US 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">390<o:p></o:p></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 171pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=228>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">东北育才学校<SPAN 
+      lang=EN-US><o:p></o:p></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 45pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=60>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">高三<SPAN 
+      lang=EN-US><o:p></o:p></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 68pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=91>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">　<SPAN 
+      lang=EN-US><o:p></o:p></SPAN></SPAN></P></TD></TR>
+  <TR style="HEIGHT: 13.5pt; mso-yfti-irow: 11">
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: windowtext 1pt solid; WIDTH: 74pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt" 
+    noWrap width=99>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN lang=EN-US 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">IO11-1811<o:p></o:p></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 64pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=85>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">王思淇<SPAN 
+      lang=EN-US><o:p></o:p></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 58.8pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=78>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN lang=EN-US 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">LN-035<o:p></o:p></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 42pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=56>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN lang=EN-US 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">385<o:p></o:p></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 171pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=228>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">辽阳市第一高级中学<SPAN 
+      lang=EN-US><o:p></o:p></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 45pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=60>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">高三<SPAN 
+      lang=EN-US><o:p></o:p></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 68pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=91>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">　<SPAN 
+      lang=EN-US><o:p></o:p></SPAN></SPAN></P></TD></TR>
+  <TR style="HEIGHT: 13.5pt; mso-yfti-irow: 12">
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: windowtext 1pt solid; WIDTH: 74pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt" 
+    noWrap width=99>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN lang=EN-US 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">IO11-1812<o:p></o:p></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 64pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=85>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">章文<SPAN 
+      lang=EN-US><o:p></o:p></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 58.8pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=78>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN lang=EN-US 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">LN-020<o:p></o:p></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 42pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=56>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN lang=EN-US 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">385<o:p></o:p></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 171pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=228>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">大连市第二十四中学<SPAN 
+      lang=EN-US><o:p></o:p></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 45pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=60>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">高二<SPAN 
+      lang=EN-US><o:p></o:p></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 68pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=91>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">　<SPAN 
+      lang=EN-US><o:p></o:p></SPAN></SPAN></P></TD></TR>
+  <TR style="HEIGHT: 13.5pt; mso-yfti-irow: 13">
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: windowtext 1pt solid; WIDTH: 74pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt" 
+    noWrap width=99>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN lang=EN-US 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">IO11-1813<o:p></o:p></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 64pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=85>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">路天一<SPAN 
+      lang=EN-US><o:p></o:p></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 58.8pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=78>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN lang=EN-US 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">LN-033<o:p></o:p></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 42pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=56>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN lang=EN-US 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">370<o:p></o:p></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 171pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=228>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">本溪市高级中学<SPAN 
+      lang=EN-US><o:p></o:p></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 45pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=60>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">高三<SPAN 
+      lang=EN-US><o:p></o:p></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 68pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=91>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">　<SPAN 
+      lang=EN-US><o:p></o:p></SPAN></SPAN></P></TD></TR>
+  <TR style="HEIGHT: 13.5pt; mso-yfti-irow: 14">
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: windowtext 1pt solid; WIDTH: 74pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt" 
+    noWrap width=99>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN lang=EN-US 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">IO11-1814<o:p></o:p></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 64pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=85>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">韩冲<SPAN 
+      lang=EN-US><o:p></o:p></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 58.8pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=78>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN lang=EN-US 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">LN-159<o:p></o:p></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 42pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=56>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN lang=EN-US 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">370<o:p></o:p></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 171pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=228>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">大连市第二十四中学<SPAN 
+      lang=EN-US><o:p></o:p></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 45pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=60>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">高三<SPAN 
+      lang=EN-US><o:p></o:p></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 68pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=91>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN lang=EN-US 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">*<o:p></o:p></SPAN></P></TD></TR>
+  <TR style="HEIGHT: 13.5pt; mso-yfti-irow: 15">
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: windowtext 1pt solid; WIDTH: 74pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt" 
+    noWrap width=99>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN lang=EN-US 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">IO11-1815<o:p></o:p></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 64pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=85>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">孙梦阳<SPAN 
+      lang=EN-US><o:p></o:p></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 58.8pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=78>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN lang=EN-US 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">LN-007<o:p></o:p></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 42pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=56>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN lang=EN-US 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">360<o:p></o:p></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 171pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=228>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">大连育明高中<SPAN 
+      lang=EN-US><o:p></o:p></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 45pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=60>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">高三<SPAN 
+      lang=EN-US><o:p></o:p></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 68pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=91>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN lang=EN-US 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">*<o:p></o:p></SPAN></P></TD></TR>
+  <TR style="HEIGHT: 13.5pt; mso-yfti-irow: 16">
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: windowtext 1pt solid; WIDTH: 74pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt" 
+    noWrap width=99>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN lang=EN-US 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">IO11-1816<o:p></o:p></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 64pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=85>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">郭珣<SPAN 
+      lang=EN-US><o:p></o:p></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 58.8pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=78>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN lang=EN-US 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">LN-108<o:p></o:p></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 42pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=56>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN lang=EN-US 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">355<o:p></o:p></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 171pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=228>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">大连育明高中<SPAN 
+      lang=EN-US><o:p></o:p></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 45pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=60>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">高二<SPAN 
+      lang=EN-US><o:p></o:p></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 68pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=91>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">　<SPAN 
+      lang=EN-US><o:p></o:p></SPAN></SPAN></P></TD></TR>
+  <TR style="HEIGHT: 13.5pt; mso-yfti-irow: 17">
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: windowtext 1pt solid; WIDTH: 74pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt" 
+    noWrap width=99>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN lang=EN-US 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">IO11-1817<o:p></o:p></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 64pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=85>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">汪弘洋<SPAN 
+      lang=EN-US><o:p></o:p></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 58.8pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=78>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN lang=EN-US 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">LN-130<o:p></o:p></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 42pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=56>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN lang=EN-US 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">355<o:p></o:p></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 171pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=228>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">本溪市高级中学<SPAN 
+      lang=EN-US><o:p></o:p></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 45pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=60>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">高二<SPAN 
+      lang=EN-US><o:p></o:p></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 68pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=91>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">　<SPAN 
+      lang=EN-US><o:p></o:p></SPAN></SPAN></P></TD></TR>
+  <TR style="HEIGHT: 13.5pt; mso-yfti-irow: 18">
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: windowtext 1pt solid; WIDTH: 74pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt" 
+    noWrap width=99>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN lang=EN-US 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">IO11-1818<o:p></o:p></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 64pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=85>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">陈客行<SPAN 
+      lang=EN-US><o:p></o:p></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 58.8pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=78>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN lang=EN-US 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">LN-052<o:p></o:p></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 42pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=56>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN lang=EN-US 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">350<o:p></o:p></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 171pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=228>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">本溪市高级中学<SPAN 
+      lang=EN-US><o:p></o:p></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 45pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=60>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">高二<SPAN 
+      lang=EN-US><o:p></o:p></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 68pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=91>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">　<SPAN 
+      lang=EN-US><o:p></o:p></SPAN></SPAN></P></TD></TR>
+  <TR style="HEIGHT: 13.5pt; mso-yfti-irow: 19">
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: windowtext 1pt solid; WIDTH: 74pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt" 
+    noWrap width=99>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN lang=EN-US 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">IO11-1819<o:p></o:p></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 64pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=85>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">关博文<SPAN 
+      lang=EN-US><o:p></o:p></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 58.8pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=78>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN lang=EN-US 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">LN-060<o:p></o:p></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 42pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=56>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN lang=EN-US 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">350<o:p></o:p></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 171pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=228>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">本溪市高级中学<SPAN 
+      lang=EN-US><o:p></o:p></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 45pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=60>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">高二<SPAN 
+      lang=EN-US><o:p></o:p></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 68pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=91>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">　<SPAN 
+      lang=EN-US><o:p></o:p></SPAN></SPAN></P></TD></TR>
+  <TR style="HEIGHT: 13.5pt; mso-yfti-irow: 20">
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: windowtext 1pt solid; WIDTH: 74pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt" 
+    noWrap width=99>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN lang=EN-US 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">IO11-1820<o:p></o:p></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 64pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=85>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">钟金吾<SPAN 
+      lang=EN-US><o:p></o:p></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 58.8pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=78>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN lang=EN-US 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">LN-148<o:p></o:p></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 42pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=56>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN lang=EN-US 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">350<o:p></o:p></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 171pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=228>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">本溪市高级中学<SPAN 
+      lang=EN-US><o:p></o:p></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 45pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=60>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">高二<SPAN 
+      lang=EN-US><o:p></o:p></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 68pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=91>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">　<SPAN 
+      lang=EN-US><o:p></o:p></SPAN></SPAN></P></TD></TR>
+  <TR style="HEIGHT: 13.5pt; mso-yfti-irow: 21">
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: windowtext 1pt solid; WIDTH: 74pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt" 
+    noWrap width=99>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN lang=EN-US 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">IO11-1821<o:p></o:p></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 64pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=85>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">张晴川<SPAN 
+      lang=EN-US><o:p></o:p></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 58.8pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=78>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN lang=EN-US 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">LN-144<o:p></o:p></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 42pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=56>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN lang=EN-US 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">340<o:p></o:p></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 171pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=228>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">东北育才学校<SPAN 
+      lang=EN-US><o:p></o:p></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 45pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=60>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">高三<SPAN 
+      lang=EN-US><o:p></o:p></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 68pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=91>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">　<SPAN 
+      lang=EN-US><o:p></o:p></SPAN></SPAN></P></TD></TR>
+  <TR style="HEIGHT: 13.5pt; mso-yfti-irow: 22">
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: windowtext 1pt solid; WIDTH: 74pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt" 
+    noWrap width=99>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN lang=EN-US 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">IO11-1822<o:p></o:p></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 64pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=85>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">王雨晴<SPAN 
+      lang=EN-US><o:p></o:p></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 58.8pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=78>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN lang=EN-US 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">LN-015<o:p></o:p></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 42pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=56>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN lang=EN-US 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">340<o:p></o:p></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 171pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=228>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">辽阳市第一高级中学<SPAN 
+      lang=EN-US><o:p></o:p></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 45pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=60>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">高二<SPAN 
+      lang=EN-US><o:p></o:p></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 68pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=91>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">　<SPAN 
+      lang=EN-US><o:p></o:p></SPAN></SPAN></P></TD></TR>
+  <TR style="HEIGHT: 13.5pt; mso-yfti-irow: 23">
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: windowtext 1pt solid; WIDTH: 74pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt" 
+    noWrap width=99>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN lang=EN-US 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">IO11-1823<o:p></o:p></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 64pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=85>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">王光睿<SPAN 
+      lang=EN-US><o:p></o:p></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 58.8pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=78>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN lang=EN-US 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">LN-026<o:p></o:p></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 42pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=56>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN lang=EN-US 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">340<o:p></o:p></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 171pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=228>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">抚顺市第一中学<SPAN 
+      lang=EN-US><o:p></o:p></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 45pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=60>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">高二<SPAN 
+      lang=EN-US><o:p></o:p></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 68pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=91>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">　<SPAN 
+      lang=EN-US><o:p></o:p></SPAN></SPAN></P></TD></TR>
+  <TR style="HEIGHT: 13.5pt; mso-yfti-irow: 24">
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: windowtext 1pt solid; WIDTH: 74pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt" 
+    noWrap width=99>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN lang=EN-US 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">IO11-1824<o:p></o:p></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 64pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=85>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">鲁霁萱<SPAN 
+      lang=EN-US><o:p></o:p></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 58.8pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=78>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN lang=EN-US 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">LN-050<o:p></o:p></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 42pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=56>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN lang=EN-US 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">335<o:p></o:p></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 171pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=228>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">大连理工大学附属高中<SPAN 
+      lang=EN-US><o:p></o:p></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 45pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=60>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">高三<SPAN 
+      lang=EN-US><o:p></o:p></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 68pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=91>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">　<SPAN 
+      lang=EN-US><o:p></o:p></SPAN></SPAN></P></TD></TR>
+  <TR style="HEIGHT: 13.5pt; mso-yfti-irow: 25">
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: windowtext 1pt solid; WIDTH: 74pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt" 
+    noWrap width=99>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN lang=EN-US 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">IO11-1825<o:p></o:p></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 64pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=85>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">郑思挺<SPAN 
+      lang=EN-US><o:p></o:p></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 58.8pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=78>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN lang=EN-US 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">LN-099<o:p></o:p></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 42pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=56>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN lang=EN-US 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">335<o:p></o:p></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 171pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=228>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">大连育明高中<SPAN 
+      lang=EN-US><o:p></o:p></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 45pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=60>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">高三<SPAN 
+      lang=EN-US><o:p></o:p></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 68pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=91>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN lang=EN-US 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">*<o:p></o:p></SPAN></P></TD></TR>
+  <TR style="HEIGHT: 13.5pt; mso-yfti-irow: 26">
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: windowtext 1pt solid; WIDTH: 74pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt" 
+    noWrap width=99>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN lang=EN-US 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">IO11-1826<o:p></o:p></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 64pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=85>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">于润泽<SPAN 
+      lang=EN-US><o:p></o:p></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 58.8pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=78>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN lang=EN-US 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">LN-002<o:p></o:p></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 42pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=56>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN lang=EN-US 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">335<o:p></o:p></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 171pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=228>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">大连育明高中<SPAN 
+      lang=EN-US><o:p></o:p></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 45pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=60>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">高二<SPAN 
+      lang=EN-US><o:p></o:p></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 68pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=91>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">　<SPAN 
+      lang=EN-US><o:p></o:p></SPAN></SPAN></P></TD></TR>
+  <TR style="HEIGHT: 13.5pt; mso-yfti-irow: 27; mso-yfti-lastrow: yes">
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: windowtext 1pt solid; WIDTH: 74pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt" 
+    noWrap width=99>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN lang=EN-US 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">IO11-1827<o:p></o:p></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 64pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=85>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">马俊<SPAN 
+      lang=EN-US><o:p></o:p></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 58.8pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=78>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN lang=EN-US 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">LN-122<o:p></o:p></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 42pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=56>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN lang=EN-US 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">335<o:p></o:p></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 171pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=228>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">大连育明高中<SPAN 
+      lang=EN-US><o:p></o:p></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 45pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=60>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">高二<SPAN 
+      lang=EN-US><o:p></o:p></SPAN></SPAN></P></TD>
+    <TD 
+    style="BORDER-RIGHT: windowtext 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: medium none; WIDTH: 68pt; PADDING-TOP: 0cm; BORDER-BOTTOM: windowtext 1pt solid; HEIGHT: 13.5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-border-right-alt: solid windowtext .5pt" 
+    noWrap width=91>
+      <P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan" 
+      align=left><SPAN 
+      style="FONT-SIZE: 11pt; COLOR: black; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">　<SPAN 
+      lang=EN-US><o:p></o:p></SPAN></SPAN></P></TD></TR></TBODY></TABLE></DIV>
+<P class=MsoNormal><SPAN 
+lang=EN-US><o:p>&nbsp;</o:p></SPAN></P></DIV></BODY></HTML>
